@@ -10,7 +10,7 @@ export const aboutPage = defineType({
       title: 'SEO title',
       type: 'string',
       description: 'Browser tab title (keep unique and B2B-focused).',
-      initialValue: 'About THCPensBulk — Licensed B2B Wholesale THC Vape Distributor',
+      initialValue: 'About THCGummiesGermany — B2B Wholesale Cannabis Edibles Distributor',
       validation: (rule) => rule.required().min(20).max(120),
     }),
     defineField({
@@ -24,7 +24,7 @@ export const aboutPage = defineType({
       name: 'pageHeading',
       title: 'Page H1',
       type: 'string',
-      initialValue: 'About THCPensBulk',
+      initialValue: 'About THCGummiesGermany',
       validation: (rule) => rule.required().min(3).max(120),
     }),
     defineField({

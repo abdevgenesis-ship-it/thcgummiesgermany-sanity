@@ -24,10 +24,10 @@ export const category = defineType({
       type: 'string',
       options: {
         list: [
-          {title: 'Disposable Vapes', value: 'Disposable Vapes'},
-          {title: '510 Cartridges', value: '510 Cartridges'},
-          {title: 'Hardware', value: 'Hardware'},
-          {title: 'Accessories', value: 'Accessories'},
+          {title: 'THC Gummies', value: 'THC Gummies'},
+          {title: 'Weed Gummies', value: 'Weed Gummies'},
+          {title: 'Cannabis Gummies', value: 'Cannabis Gummies'},
+          {title: 'Edibles', value: 'Edibles'},
           {title: 'Wholesale Bundles', value: 'Wholesale Bundles'},
         ],
       },
