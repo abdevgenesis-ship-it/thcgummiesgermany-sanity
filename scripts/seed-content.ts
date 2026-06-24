@@ -56,10 +56,10 @@ async function seed() {
   await upsert({
     _id: 'ff42da08-7a52-4d28-9f62-016a68ca4167',
     _type: 'homePage',
-    heroBadge: 'THCGummiesGermany.com',
-    heroHeading: 'THC Gummies Germany — Your #1 Wholesale & Bulk Source for Premium Edibles',
+    heroBadge: 'THCGummiesGermany',
+    heroHeading: 'THC Gummies Germany — Your #1 Wholesale & Bulk Source',
     heroSubheading:
-      'Premium Edibles, Unbeatable Prices, and Guaranteed 48h Delivery Across Germany and Europe. Buy Canapuff, Tyson 2.0, Cookies, and Camino at wholesale prices.',
+      'Premium Edibles, Unbeatable Prices, and Guaranteed 48h Delivery Across Europe.',
     heroPrimaryCtaLabel: 'Shop THC Gummies',
     heroPrimaryCtaHref: '/category/thc-gummies',
     heroSecondaryCtaLabel: 'Apply for Wholesale',
@@ -78,7 +78,7 @@ async function seed() {
     authorityEyebrow: 'Premium Wholesale Edibles Supply',
     authorityHeading: 'High-Margin Wholesale THC Gummies for German and European B2B Retailers',
     authorityIntro:
-      'When it comes to sourcing bulk THC gummies or complete cannabis edibles wholesale arrays, consistency is the key differentiator for profitable operations. We supply major distributors across Germany and the DACH region with premium THC gummies, weed gummies, and cannabis edibles from the world\'s most trusted brands — all COA-verified and CanG-compliant.',
+      '**THC gummies in Germany** are at the forefront of the rapidly expanding European cannabis market, and at THCGummiesGermany we make it straightforward for dispensaries, smoke shops, and online retailers to source authentic, COA-verified edibles at true wholesale prices. As a dedicated B2B distributor, we stock a curated range of **wholesale THC gummies**, **weed gummies**, and **cannabis edibles** from top-tier global brands, with a minimum order of just 50 units and volume price breaks that scale with your business.\n\n[[H2]]\n\nFor retailers sourcing **THC gummies wholesale**, product authenticity and documentation are non-negotiable. Every SKU in our catalog ships with a Certificate of Analysis (COA) confirming cannabinoid content and compliance with the German Cannabis Act (CanG). Our supply chain is direct from manufacturer, meaning you receive the same verified product your customers expect.\n\nFor wholesale partners who need to move volume, we offer tiered pricing, flexible payment options including crypto discounts, and a dedicated account manager. Whether you operate a single boutique dispensary or manage a multi-location retail network across the DACH region, our infrastructure is built to keep your supply chain uninterrupted.\n\nOur catalog spans the most in-demand edible formats your customers are looking for:\n\n[[OUTRO]]\n\n**Fast 48h Tracked Delivery Across Germany, DACH & Europe**\n\nWe understand that stockouts cost you sales. Our fulfillment network is engineered for speed: orders confirmed before our daily cutoff are packaged and dispatched within 48 hours, with priority same-day dispatch available for qualifying high-volume accounts.\n\nDomestic German and DACH-region shipments qualify for priority dispatch. Wholesale orders to the wider EU ship via tracked courier with full insurance on every consignment.',
     authorityPoints: [
       {_type: 'homeAuthorityPoint', _key: 'ap-0', title: 'COA-Verified Quality', description: 'Every batch of THC gummies and cannabis edibles ships with third-party lab COA confirming cannabinoid potency and purity.', iconKey: 'badgeCheck'},
       {_type: 'homeAuthorityPoint', _key: 'ap-1', title: 'CanG Compliant Distribution', description: 'All shipments across Germany and Europe are fully compliant with the German Cannabis Act (CanG) and applicable EU regulations.', iconKey: 'shieldCheck'},
@@ -147,9 +147,9 @@ async function seed() {
   await upsert({
     _id: 'wholesalePage',
     _type: 'wholesalePage',
-    seoTitle: 'Wholesale THC Gummies & Bulk Cannabis Edibles | THCGummiesGermany B2B',
+    seoTitle: 'Wholesale THC Gummies | Bulk Order Pricing & 48h Shipping',
     seoDescription:
-      'Apply for our premium wholesale THC gummies and cannabis edibles program. Get distributor pricing, tier discounts, and guaranteed 48-hour CanG-compliant shipping across Germany and the EU.',
+      "Wholesale THC gummies at the lowest market rates. Order bulk quantities for your retail business with 48h delivery guaranteed. Join Germany's top supply network.",
     heroBadge: 'B2B Wholesale Program',
     heroHeading: 'Wholesale THC Gummies and Cannabis Edibles Distribution Program for Verified German and EU Businesses',
     heroSecondaryHeading: 'Wholesale THC gummies account registration for professional retailers and distributors.',
@@ -426,7 +426,7 @@ async function seed() {
       'Order Premium Weed Gummy Wholesale Packs and Volume Cases at Unbeatable Commercial Prices for Germany and European Markets.',
     description:
       'Weed gummies remain a top-selling cannabis edibles format across Germany and Europe, acting as an essential anchor for high-margin dispensary and head shop inventory. At THCGummiesGermany.com, we stock the market\'s most complete B2B collection of premium weed gummies from trusted wholesale brands — all COA-verified and CanG-compliant for high-volume distributors across the DACH region and EU.',
-    seoTitle: 'Buy Weed Gummies Germany | Wholesale Bulk Orders | THCGummiesGermany',
+    seoTitle: 'Weed Gummies for Sale | Wholesale Bulk Supply in Germany',
     seoDescription:
       'Buy weed gummies in Germany at direct wholesale prices. Stock premium brands with COA verification and 48h EU delivery. Best B2B wholesale pricing for German and European retailers.',
     categoryHeroEyebrow: 'Weed Gummies Germany',
@@ -464,7 +464,7 @@ async function seed() {
       'Order Premium Cannabis Gummy Wholesale Packs and Volume Cases at Manufacturer-Direct Prices with 48h EU Delivery.',
     description:
       'Cannabis gummies are a premium edibles format delivering consistent, reliable consumer experiences across Germany and the wider EU market. At THCGummiesGermany.com, we offer an extensive B2B wholesale range of cannabis gummies from top brands — COA-verified, CanG-compliant, and ready for 48-hour EU dispatch to dispensaries, health stores, and cannabis retailers across Germany, Austria, Switzerland, and Europe.',
-    seoTitle: 'Cannabis Gummies Germany | Wholesale Bulk Orders | THCGummiesGermany',
+    seoTitle: 'Cannabis Gummies Wholesale | Order Bulk Edibles Germany',
     seoDescription:
       'Buy cannabis gummies in Germany at direct wholesale prices. COA-verified stock with 48h EU delivery. Best B2B wholesale pricing for German and European retailers.',
     categoryHeroEyebrow: 'Cannabis Gummies Germany',
