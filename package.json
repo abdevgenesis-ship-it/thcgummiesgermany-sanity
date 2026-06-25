@@ -6,6 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "seed": "node --experimental-strip-types scripts/seed-content.ts",
+    "seed:content-doc": "sanity exec --with-user-token ./scripts/seed-content-doc.ts",
     "upload-images": "node --experimental-strip-types scripts/upload-images.ts",
     "build": "sanity build",
     "deploy": "sanity deploy",
@@ -28,10 +29,10 @@
   ],
   "dependencies": {
     "@sanity/ui": "^3.2.0",
-    "@sanity/vision": "^5.28.0",
+    "@sanity/vision": "^5.31.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "sanity": "^5.28.0",
+    "sanity": "^5.31.1",
     "styled-components": "^6.1.18"
   },
   "devDependencies": {
